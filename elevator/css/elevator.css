@@ -1,0 +1,55 @@
+.wrap{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -189px;
+    margin-left: -103px;
+}
+table{
+    border:0;
+    border:1px solid #000;
+}
+ 
+table tr{
+    padding:0;
+    margin:0;
+}
+
+table td{
+    border:1px solid #000;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+table td:hover{
+    cursor:pointer;
+}
+.now{
+	background: #90EE90;
+}
+td:hover{
+	background: #FF6347;
+}
+td:active{
+	background: red;
+}
+.old{
+	background: #fff;
+}
+.showBox{
+    width: 200px;
+    border: 3px solid #000;
+    height: 100px;
+    background: red;
+    margin-bottom: 10px;
+
+}
+h2{
+    line-height: 100px;
+    margin: 0px;
+    text-align: center;
+}
